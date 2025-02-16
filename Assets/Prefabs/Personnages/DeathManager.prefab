@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5882704056442195510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5882704056442195509}
+  - component: {fileID: 5882704056442195508}
+  - component: {fileID: 5882704056442195507}
+  - component: {fileID: 7925647352219879030}
+  m_Layer: 0
+  m_Name: DeathManager
+  m_TagString: DeathManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5882704056442195509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882704056442195510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.14781, z: 0}
+  m_LocalScale: {x: 1, y: 1.5678, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5882704056442195508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882704056442195510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130ca1fc85a7f0d4f8e20bdaaf8a69bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerToInstantiate: {fileID: 1727054164992731494, guid: 544e60787e6619248bdc9926d3a82e95, type: 3}
+  _playerRagdoll: {fileID: 9024612924607758995, guid: 286862fbc9739b344abe1597f5e48df6, type: 3}
+  _explosionPrefab: {fileID: 8238112567306229389, guid: 9b814a6f5cfcb6448a47acfd3e3c5a51, type: 3}
+  _spawnPoint: {fileID: 0}
+  peutRebondir: 0
+  isSuperDead: 0
+  _listeMortSon:
+  - {fileID: 8300000, guid: eb6a1a27380e4e240ba51e27dc087467, type: 3}
+  - {fileID: 8300000, guid: 0528f30f818f3974f91809784586207e, type: 3}
+  - {fileID: 8300000, guid: 09c181be9e7d98a4794907a7e934ea75, type: 3}
+  _sourceAudioMort: {fileID: 0}
+  narrateurScript: {fileID: 0}
+  fallDeath: 0
+  isDead: 0
+--- !u!65 &5882704056442195507
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882704056442195510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92259216, y: 1.5, z: 0.9016037}
+  m_Center: {x: -0.03870392, y: 0.26033974, z: 0.04919815}
+--- !u!54 &7925647352219879030
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882704056442195510}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

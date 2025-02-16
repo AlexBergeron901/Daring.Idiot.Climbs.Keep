@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Rocket
+  - Boom
+  - MurInvisible
+  - MurInvisibleLimite
+  - Fog
+  - Bombe
+  - Target
+  - ListeJoueur
+  - SpawnPoint
+  - DogSpawner
+  - EnvironmentDeath
+  - Ragdoll
+  - DeathManager
+  - Dog
+  - Narrateur
+  - GamerManager
+  - CabinFallPoint
+  - KeepFallPoint
+  - OutOfBounds
+  - Mountain
+  - MusicManager
+  - End
+  - Pug
+  - UITemps
+  - VictoryText
+  - Sous-titre
+  - UI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player?
+  - Rocket?
+  - Grass
+  - Wood
+  - Concrete
+  - Sand
+  - Lance-roquette
+  - Squelette
+  - Elevateur
+  - RagdollMask
+  - Mort
+  - Cloud Layer
+  - dog
+  - background trees
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
