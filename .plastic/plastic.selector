@@ -1,4 +1,0 @@
-repository "Daring.Idiot.Climbs.Keep@DaringDicksVeryBig@cloud"
-  path "/"
-    br "/main"
-    co "/main"
